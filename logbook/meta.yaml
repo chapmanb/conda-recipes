@@ -1,0 +1,24 @@
+package:
+  name: logbook
+  version: 0.6.0
+
+source:
+  fn: Logbook-0.6.0.tar.gz
+  url: https://pypi.python.org/packages/source/L/Logbook/Logbook-0.6.0.tar.gz
+  md5: 2c77da3adeafd191bb8071cc5ad447bf
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - logbook
+
+about:
+  home: http://logbook.pocoo.org/
+  license: BSD
